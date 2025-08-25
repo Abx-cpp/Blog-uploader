@@ -1,0 +1,3 @@
+In the sign up page, the data is passing to the appwrite but still there is an error in the userID field ,
+
+Same error in the login page.
