@@ -9,12 +9,12 @@ A modern blog management application built with React JS and powered by Appwrite
 🛣️ Client-Side Routing – Using React Router DOM.<br>
 🌐 Public or Private Blog – Can be configured for personal or community use.<br>
 
-🛠️ Tech Stack :<br><br>
+# 🛠️ Tech Stack :<br><br>
 Frontend: React JS, Redux, React Router DOM. <br>
 Editor: TinyMCE. <br>
 Backend: Appwrite (Authentication, Database, Storage) . <br> 
 
-📂 Project Structure<br>
+# 📂 Project Structure<br>
 blog-updater/
 │── src/
 │   ├── components/   # UI Components
@@ -29,17 +29,17 @@ blog-updater/
 
 ⚙️ Installation & Setup : <br>
 
-#Clone the repository<br>
+# Clone the repository<br>
 git clone https://github.com/your-username/blog-updater.git<br>
 cd blog-updater
 <br>
 
-#Install dependencies
+# Install dependencies
 
 npm install<br>
 
 
-#Configure Appwrite<br>
+# Configure Appwrite<br>
 
 Create a project in Appwrite<br>
 Set up Authentication (Email/Password).<br>
@@ -53,15 +53,15 @@ export const DATABASE_ID = "your_database_id";
 export const COLLECTION_ID = "your_collection_id";
 
 
-#Run the app locally <br>
+# Run the app locally <br>
 npm start
 
 
-#Build for production<br>
+# Build for production<br>
 npm run dev
 <br>
 
-#🔐 Authentication Flow<br>
+# 🔐 Authentication Flow<br>
 Users can sign up with email & password.<br>
 Authenticated users can add, edit, or delete posts.<br>
 Unauthenticated users can view posts only (if public mode is enabled).<br>
