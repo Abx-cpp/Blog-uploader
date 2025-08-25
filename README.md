@@ -47,12 +47,12 @@ Create a Database collection for posts.<br>
 <br>
 Add your Appwrite credentials in src/config.js:<br>
 
-export const APPWRITE_ENDPOINT = "https://[HOSTNAME_OR_IP]/v1";
-export const PROJECT_ID = "your_project_id";
-export const DATABASE_ID = "your_database_id";
-export const COLLECTION_ID = "your_collection_id";
+export const APPWRITE_ENDPOINT = "https://[HOSTNAME_OR_IP]/v1";<br>
+export const PROJECT_ID = "your_project_id";<br>
+export const DATABASE_ID = "your_database_id";<br>
+export const COLLECTION_ID = "your_collection_id";<br>
 
-
+<br>
 # Run the app locally <br>
 npm start
 
